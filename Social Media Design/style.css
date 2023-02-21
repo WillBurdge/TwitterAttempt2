@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9e9e9;
+    color: #262626;
+  }
+  
+  /* Profile picture styles */
+  .profile-pic-figure {
+    width: 125px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 90px;
+  }
+  
+  .profile-pic-figure img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px double #636363;
+  }
+  
+  /* Header styles */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png);
+    height: 200px;
+  }
+  
+  .hero h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFF;
+  }
+  
+  .hero button {
+    background-color: #FFF;
+    color: #333;
+    border: 2px solid #C6BED3;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .hero button:hover {
+    background-color: #F9F9F9;
+    border-color: #AAA2BC;
+    color: #333;
+  }
+  
+  /* Information box styles */
+  .info {
+    margin: 0 auto;
+    width: 80%;
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -50px;
+  }
+  
+  .info h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .info h3 {
+    margin: 0;
+    margin-top: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #00B1D9;
+  }
+  
+  .info .box {
+    margin-top: 20px;
+  }
+  
+  /* Edit profile button styles */
+  .editProfileBtn {
+    background-color: #FFF;
+    color: #333;
+    border: 2px solid #C6BED3;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .editProfileBtn:hover {
+    background-color: #F9F9F9;
+    border-color: #AAA2BC;
+    color: #333;
+  }
+  
+  /* Tweet button styles */
+  .twtBtn {
+    background-color: #1D9BF0;
+    color: #FFF;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-top: 3%;
+  }
+  
+  .twtBtn:hover {
+    background-color: #1b94e5
+  }
